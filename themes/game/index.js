@@ -119,7 +119,8 @@ const LayoutBase = props => {
             <div className='w-full py-4'>
               <AdSlot type='in-article' />
             </div>
-<ins/>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4754230435441829"
+     crossorigin="anonymous"></script>
             {/* 主区域下方 导览 */}
             <div className='w-full bg-white dark:bg-hexo-black-gray rounded-lg p-2'>
               {/* 标签汇总             */}
