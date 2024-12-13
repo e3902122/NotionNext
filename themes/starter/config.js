@@ -60,7 +60,7 @@ const CONFIG = {
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
   STARTER_ABOUT_TEXT:
     'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
@@ -198,7 +198,7 @@ const CONFIG = {
     '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
@@ -231,20 +231,20 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: 'PAGE',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: '關於我們的事',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '這裡的東西都與我們相關',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: true, // 联系模块开关
   STARTER_CONTACT_TITLE: '联系我们',
   STARTER_CONTACT_TEXT: '告诉我们您遇到的问题',
   STARTER_CONTACT_LOCATION_TITLE: '我们的位置',
-  STARTER_CONTACT_LOCATION_TEXT: '中国，福建',
+  STARTER_CONTACT_LOCATION_TEXT: '台灣，Taiwan',
   STARTER_CONTACT_EMAIL_TITLE: '我们如何帮助您？',
-  STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
+  STARTER_CONTACT_EMAIL_TEXT: 'ZXCP',
 
   // 嵌入外部表单
   STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/yfctc7', // 基于NoteForm创建，将留言数据存在Notion中
